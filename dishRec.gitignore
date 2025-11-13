@@ -1,0 +1,19 @@
+# Python 编译和环境文件
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints
+
+# 大型数据文件和敏感文件
+src/data/*.json
+src/data/*.jsonl
+src/data/structured_recipes.json
+src/data/sft_train.jsonl
+src/data/sft_val.jsonl
+
+# 模型和检查点
+checkpoints/
+*.pt
+*.pth
+*.safetensors
